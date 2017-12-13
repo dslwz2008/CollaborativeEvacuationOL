@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+  <title>在线虚拟协同疏散实验报名及调查问卷</title>
+  <link rel="stylesheet" href="css/base.css">
+</head>
+<body>
+<div class="page-wrap" id="app">
+  <div class="result-wrap">
+    <p class="slogan">恭喜您,报名成功</p>
+    <div class="result-item">
+      用户名: {{username}}
+    </div>
+    <div class="result-item">
+      密&nbsp&nbsp码: {{userpwd}}
+    </div>
+    <div class="result-item tip">
+      本次疏散将安排在参与人数最多的时间段,大约需要30分钟,请提前安排好时间
+    </div>
+    <div class="result-item">
+      实验开始前请仔细阅读<a class="link" href="http://119.23.128.14:8088/static/question/ReadMe.docx" target="_blank">实验说明</a>,并提前下载好
+      <a class="link" href="http://119.23.128.14:8088/static/question/Evacuation.rar" target="_blank">客户端</a>
+    </div>
+    <div class="result-item">
+      加入实验微信群:
+    </div>
+    <div class="result-item">
+      <img class="er-img" src="img/ercode.jpg">
+    </div>
+  </div>
+</div>
+<script src="js/vue.min.js"></script>
+<script src="js/result.js"></script>
+</body>
+</html>
